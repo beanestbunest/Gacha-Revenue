@@ -54,8 +54,8 @@ def month_order_cat(series: pd.Series, month_cols):
 # ----------------------------
 # App UI
 # ----------------------------
-st.title("Gacha Revenue Dashboard (Top 30 per Month)")  # title text from your original app [file:1]
-st.markdown("Data taken from https://revenue.ennead.cc/revenue")  # source note from your original app [file:1]
+st.title("Gacha Revenue Dashboard (Top 30 per Month)") 
+st.markdown("Data taken from https://revenue.ennead.cc/revenue")  
 
 # Sidebar: data source
 st.sidebar.header("Data")

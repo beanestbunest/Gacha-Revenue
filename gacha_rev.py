@@ -59,7 +59,7 @@ st.markdown("Data taken from https://revenue.ennead.cc/revenue")
 
 # Sidebar: data source
 st.sidebar.header("Data")
-default_path = "../gacha_rev_oct-jan_top_30.csv"
+default_path = "./gacha_rev_oct-jan_top_30.csv"
 csv_file = st.sidebar.file_uploader("Upload CSV (optional)", type=["csv"])
 path_input = st.sidebar.text_input("...or CSV path", value=default_path)
 
@@ -101,7 +101,7 @@ month_num = month + "_num"
 if show_only_with_month:
     df_f = df_f[df_f[month_num].notna()]
 
-# Latest month = currently selected month (keeps the dashboard consistent)
+# Latest month = currently selected month 
 latest = month
 latest_num = latest + "_num"
 

@@ -15,9 +15,9 @@ Data source (as shown in-app): https://revenue.ennead.cc/revenue
 ## Project structure (suggested)
 ```text
 .
-├── gacha_rev.py
+├── code.py
 ├── requirements.txt
-└── gacha_rev_oct-jan_top_30.csv
+└── data.csv
 
 ```
 
@@ -38,5 +38,5 @@ pip install -r requirements.txt
 ```
 3) Run the app
 ```
-streamlit run gacha_rev.py
+streamlit run code.py
 ```

@@ -15,7 +15,7 @@ st.set_page_config(page_title="Gacha Revenue (Top 30)", layout="wide")
 def load_data(path: str):
     df = pd.read_csv(path, na_values=["N.A.", "NA", "N/A", "-"])
 
-    month_cols = ["Oct", "Nov", "Dec", "Jan", "Feb"]
+    month_cols = ["Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May"]
 
     # Ensure required columns exist
     required = ["Game", "Scope"] + month_cols
